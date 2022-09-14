@@ -18,7 +18,7 @@ jobs:
       matrix:
         include:
           # - ruby: 3.0 # Not working due to nokogiri
-          - truffleruby-head
+          - ruby: truffleruby-head
           - ruby: 2.7
           - ruby: 2.6
           - ruby: 2.5
